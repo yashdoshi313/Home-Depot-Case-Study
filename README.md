@@ -1,8 +1,8 @@
 # Weiser × Home Depot Canada: eCommerce Performance Review
 
-A portfolio-style eCommerce analytics case study built using a fictional Home Depot Canada specimen dataset. The goal was to analyze supplier performance, identify digital shelf gaps, and translate SKU-level data into prioritized Product Information Page improvement actions.
+A portfolio-style eCommerce analytics case study built using a fictional Home Depot Canada specimen dataset. The project analyzes supplier performance, identifies digital shelf gaps, and translates SKU-level data into prioritized Product Information Page improvement actions.
 
-> **Note:** This project is based on fictional data created for a case study exercise. It is not based on actual Home Depot Canada performance data.
+> **Note:** This project is based on fictional data created for a case study exercise. It is not based on actual Home Depot Canada, Weiser, or supplier performance data.
 
 ---
 
@@ -14,8 +14,8 @@ A portfolio-style eCommerce analytics case study built using a fictional Home De
 | **Brand analyzed** | Weiser, door hardware category |
 | **Dataset grain** | Monthly SKU-level performance data |
 | **Core channels** | Online sales, online visits, online orders, in-store sales |
-| **Primary output** | Vendor-facing performance review and 12-month digital shelf roadmap |
-| **Tools used** | Excel, PowerPoint, eCommerce KPI analysis, data storytelling |
+| **Primary output** | Vendor-facing eCommerce performance review and 12-month digital shelf roadmap |
+| **Tools used** | Excel, PowerPoint, KPI analysis, data storytelling |
 
 ---
 
@@ -25,7 +25,27 @@ How can a supplier improve eCommerce performance on HomeDepot.ca by using SKU-le
 
 The analysis focused on one central idea:
 
-> The Product Information Page is not only a product detail page. It is the decision-making shelf where online and in-store purchase intent is created.
+> The Product Information Page is not just a product detail page. It is the digital shelf where online and in-store purchase intent is created.
+
+---
+
+## Repository Files
+
+This README assumes all files are saved directly in the main/root repository folder.
+
+```text
+.
+├── README.md
+├── performance-overview.png
+├── funnel-analysis.png
+├── monetization-analysis.png
+├── customer-signal-analysis.png
+├── sample_dataset_calculations.xlsx
+├── case_study_pitch_deck.pptx
+└── case_study_guidelines.pdf
+```
+
+> Make sure the PNG file names in your GitHub repo match the names used above exactly.
 
 ---
 
@@ -33,35 +53,45 @@ The analysis focused on one central idea:
 
 The project was delivered as a vendor-facing eCommerce performance review. The visuals below show the main analytical storyline: current performance, funnel leakage, monetization efficiency, and customer trust signals.
 
-### Performance Overview
+---
 
-![Performance Overview showing total online sales, total orders, average conversion rate, blended revenue per visit, online sales TY vs LY, and top SKU table](visuals/performance-overview.png)
+### 1. Performance Overview
+
+![Performance Overview showing total online sales, total orders, average conversion rate, blended revenue per visit, online sales TY vs LY, and top SKU table](performance-overview.png)
 
 **Key message:** Revenue is concentrated across a few key SKUs, but performance varies sharply in conversion and monetization efficiency.
 
----
-
-### Funnel Analysis
-
-![Funnel Analysis showing online visits by SKU, conversion rate by SKU, and diagnosis table for high-traffic low-conversion SKUs](visuals/funnel-analysis.png)
-
-**Key message:** SKU 15 and SKU 17 attract strong traffic but convert below 0.65%, indicating a digital shelf problem rather than a demand problem.
+The portfolio generated approximately **$5.46M in online sales**, up **10.3% YoY**, with **15,994 online orders**, up **3.4% YoY**. However, the gap between sales growth and order growth suggested that Average Order Value was contributing more to revenue growth than pure volume expansion.
 
 ---
 
-### Monetization Analysis
+### 2. Funnel Analysis
 
-![Monetization analysis showing blended revenue per visit, store dependency ratio, and AOV online vs store premium](visuals/monetization-analysis.png)
+![Funnel Analysis showing online visits by SKU, conversion rate by SKU, and diagnosis table for high-traffic low-conversion SKUs](funnel-analysis.png)
 
-**Key message:** SKU 20 generates the highest blended revenue per visit, while SKU 12 leads on online AOV. High AOV alone does not guarantee visit efficiency.
+**Key message:** SKU 15 and SKU 17 attract strong traffic but convert below **0.65%**, indicating a digital shelf problem rather than a demand problem.
+
+These SKUs received more than **230K combined annual visits**, but conversion remained below the portfolio average. This means customers were reaching the Product Information Pages, but the content was not fully converting interest into orders.
 
 ---
 
-### Customer Signal Analysis
+### 3. Monetization Analysis
 
-![Customer signal analysis showing monthly average rating, monthly conversion rate, and SKU trust tier table](visuals/customer-signal-analysis.png)
+![Monetization analysis showing blended revenue per visit, store dependency ratio, and AOV online vs store premium](monetization-analysis.png)
+
+**Key message:** SKU 20 generates the highest blended revenue per visit, while SKU 12 leads on online Average Order Value. High AOV alone does not guarantee visit efficiency.
+
+Blended Revenue per Visit ranged from approximately **$2.51 to $24.39**, showing that traffic volume alone does not explain performance. Some SKUs created far more value per visit because of stronger conversion, higher order value, or stronger in-store sales influence.
+
+---
+
+### 4. Customer Signal Analysis
+
+![Customer signal analysis showing monthly average rating, monthly conversion rate, and SKU trust tier table](customer-signal-analysis.png)
 
 **Key message:** Low-rated SKUs create trust friction, while stronger rating periods align with better conversion performance.
+
+Several SKUs had ratings below **2.5 stars**, creating trust risk. The analysis showed that ratings, Q&A gaps, and unclear product content can directly affect customer confidence and purchase decisions.
 
 ---
 
@@ -70,11 +100,11 @@ The project was delivered as a vendor-facing eCommerce performance review. The v
 | Case Study Requirement | Work Delivered |
 |---|---|
 | Choose a brand sold on HomeDepot.ca | Selected **Weiser** as the brand for analysis within the door hardware category |
-| Analyze the provided dataset | Built a SKU and month-level KPI workbook covering online sales, orders, visits, ratings, conversion, AOV, and YoY growth |
+| Analyze the provided dataset | Built a SKU-level and month-level KPI workbook covering online sales, orders, visits, ratings, conversion, AOV, and YoY growth |
 | Highlight online performance from the supplier perspective | Created a vendor-facing performance story showing where revenue was concentrated and where conversion was leaking |
-| Calculate key KPIs | Calculated conversion rate, AOV, YoY growth, online product visits, orders, ratings, and additional business KPIs |
+| Calculate key KPIs | Calculated conversion rate, AOV, YoY growth, online product visits, online orders, and ratings |
 | Add extra KPIs that create value | Added Blended Revenue per Visit, Store Dependency Ratio, Channel AOV Premium, retail price change, and growth decomposition |
-| Review Product Information Pages | Audited live-style PIP examples to identify title, image, specification, description, and Q&A gaps |
+| Review Product Information Pages | Audited Product Information Page examples to identify title, image, specification, description, and Q&A gaps |
 | Provide recommendations | Prioritized recommendations across content optimization, search and findability, and digital shelf enhancements |
 | Build a clear presentation | Delivered a structured case study pitch deck with charts, tables, key messages, and executive-ready recommendations |
 | Outline a 12-month plan | Created a three-phase roadmap: Diagnose & Fix, Build & Enrich, Scale & Optimize |
@@ -149,13 +179,13 @@ This showed that traffic volume alone was not enough. Some SKUs created far more
 
 A large share of revenue closed in-store, but the online Product Information Page still played a major role in customer decision-making.
 
-This made the PIP the key bridge between online discovery and in-store purchase intent.
+This made the Product Information Page the bridge between online discovery and in-store purchase intent.
 
 ---
 
 ### 5. Ratings and Q&A gaps signalled trust friction
 
-Several SKUs had low average ratings, including SKUs below **2.5 stars**. The PIP audit also showed unanswered customer questions, limited product images, confusing product titles, and specification gaps.
+Several SKUs had low average ratings, including SKUs below **2.5 stars**. The Product Information Page audit also showed unanswered customer questions, limited product images, confusing product titles, and specification gaps.
 
 These are trust leaks. Each missing answer or unclear attribute increases customer hesitation.
 
@@ -165,7 +195,7 @@ These are trust leaks. Each missing answer or unclear attribute increases custom
 
 The Product Information Page review focused on how content supports or blocks the customer journey.
 
-### Issues identified
+### Issues Identified
 
 - Product titles were long or confusing
 - Some specifications appeared unclear or misleading
@@ -186,12 +216,16 @@ The Product Information Page review focused on how content supports or blocks th
 - Lead descriptions with customer benefits before technical features
 - Convert repeated Q&A concerns into visible FAQ-style product copy
 
+---
+
 ### Medium Priority: Search and Findability
 
 - Add customer-searchable terms such as keyless entry, smart lock, finish, function, and use case
 - Complete filter-driving attributes such as connectivity, smart technology, voice assistant, and BHMA grade
 - Add descriptive image alt text
 - Audit category taxonomy so products appear in the right filtered browsing paths
+
+---
 
 ### High Priority: Digital Shelf Enhancements
 
@@ -211,7 +245,9 @@ The Product Information Page review focused on how content supports or blocks th
 | **Phase 2: Build & Enrich** | Months 4-8 | Description rewrites, image expansion, FAQ copy, installation assets | Richer product pages that answer buyer questions |
 | **Phase 3: Scale & Optimize** | Months 9-12 | Search keyword optimization, performance tracking, scale to broader SKU set | Repeatable digital shelf playbook |
 
-### KPIs to track monthly
+---
+
+## KPIs to Track Monthly
 
 - Conversion Rate % by SKU
 - Online Orders Growth %
@@ -219,7 +255,7 @@ The Product Information Page review focused on how content supports or blocks th
 - Blended Revenue per Visit
 - Store Dependency Ratio
 - Q&A Response Rate
-- Image Count per PIP
+- Image Count per Product Information Page
 - Average Product Rating
 
 ---
@@ -240,26 +276,6 @@ The Product Information Page review focused on how content supports or blocks th
 
 ---
 
-## Suggested Repository Structure
-
-```text
-.
-├── README.md
-├── data/
-│   └── sample_dataset_calculations.xlsx
-├── presentation/
-│   └── case_study_pitch_deck.pptx
-├── visuals/
-│   ├── performance-overview.png
-│   ├── funnel-analysis.png
-│   ├── monetization-analysis.png
-│   └── customer-signal-analysis.png
-└── docs/
-    └── case_study_guidelines.pdf
-```
-
----
-
 ## How to Read This Project
 
 For a quick review:
@@ -274,12 +290,12 @@ For a quick review:
 
 ## Future Enhancements
 
-If this were expanded into a full analytics portfolio project, the next version could include:
+If this project were expanded further, the next version could include:
 
 - A Power BI dashboard for interactive SKU filtering
 - A Python or SQL pipeline to automate KPI generation
 - A weighted KPI summary table for portfolio-level reporting
-- Before and after PIP mockups
+- Before and after Product Information Page mockups
 - Search keyword mapping by product type
 - A prioritization score combining visits, conversion gap, rating risk, and revenue potential
 
