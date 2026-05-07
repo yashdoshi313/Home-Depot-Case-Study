@@ -57,7 +57,7 @@ The project was delivered as a vendor-facing eCommerce performance review. The v
 
 ### 1. Performance Overview
 
-![Performance Overview showing total online sales, total orders, average conversion rate, blended revenue per visit, online sales TY vs LY, and top SKU table](performance-overview.png)
+![Performance Overview showing total online sales, total orders, average conversion rate, blended revenue per visit, online sales TY vs LY, and top SKU table](performance-review.png)
 
 **Key message:** Revenue is concentrated across a few key SKUs, but performance varies sharply in conversion and monetization efficiency.
 
